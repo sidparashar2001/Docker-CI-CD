@@ -22,6 +22,7 @@ app.post("/senddata", (req,res) => {
     res.send("POST request has been successfully sent");
 });
 
+// PORT
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
 });
